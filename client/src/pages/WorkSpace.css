@@ -1,0 +1,121 @@
+.workspace{
+    display: flex;
+    flex-direction: column;
+    margin: 67px 0px 100px 0px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.workspace>h1, .head-group>h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: #8B9D90;
+    padding: 0;
+    margin: 0;
+}
+
+.work-teams{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(527px, 1fr));
+    grid-gap: 20px;
+    width: 100%;
+    margin-top: 89px;
+}
+
+.work-team{
+    background: #8B9D90;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    justify-content: flex-start;
+    padding: 38px 36px;
+}
+
+.work-team>p, .head-group>p{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0px 0px 10px 0px;
+    color: white;
+    margin: 0;
+}
+
+.task{
+    display: flex;
+    gap: 27px;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.task>p{
+    color: #8B9D90;
+    background: white;
+    font-size: 36px;
+    font-weight: 400;
+    border: none;
+    border-radius: 20px;
+    padding: 26px 0px 26px 22px;
+    margin: 0;
+    width: 100%;
+}
+
+.circle{
+    background: #BB6161;
+    width: 5%;
+    height: 25%;
+    border: none;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.head-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.head-group>button{
+    background: white;
+    border: 2px solid #8B9D90;
+    border-radius: 20px;
+    color: #8B9D90;
+    padding: 0px 23px;
+    font-size: 86px;
+    font-weight: 500;
+    height: 40%;
+}
+
+.work-teams-group{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-gap: 20px;
+    width: 100%;
+    margin-top: 81px;
+}
+
+.task>.date-p{
+    background: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    width: 35%;
+}
+
+.add-task{
+    background: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 30%;
+    width: fit-content;
+    padding: 0px 16px;
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+}

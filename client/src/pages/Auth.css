@@ -1,0 +1,101 @@
+.auth{
+    width: 40%;
+    border-radius: 20px;
+    border: none;
+    background: #8B9D90;
+    padding: 19px 53px;
+    margin: 192px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth>h1{
+    color: white;
+    font-size: 64px;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.auth>input{
+    background: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 30px 0px 30px 30px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    margin-top: 41px;
+}
+
+.auth>input::placeholder{
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.auth>div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 15px 0px 41px 0px;
+    align-self: flex-end;
+}
+
+.auth>div>p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.auth>div>a{
+    font-size: 24px;
+    font-weight: 500;
+    color: #B5E1AE;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.auth-button{
+    background: white;
+    padding: 24px 69px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #8B9D90;
+    border: none;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .auth{
+        width: 100%;
+    }
+
+    .auth>h1{
+        font-size: 48px;
+    }
+    
+    .auth>input{
+        font-size: 18px;
+    }
+    
+    .auth>div>p{
+        font-size: 18px;
+    }
+    
+    .auth>div>a{
+        font-size: 18px;
+    }
+    
+    .auth-button{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .auth{
+        width: 60%;
+    }
+}
